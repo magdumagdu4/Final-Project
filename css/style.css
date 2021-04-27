@@ -65,16 +65,20 @@ body{
 	font-size:100px;
 	color:#fff;
 	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto', sans-serif;
 }
 .text-on-image2{
 	font-size: 50px;
 	color:#fff;
 	font-family: 'Roboto', sans-serif;	
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 /*Form-after-banner*/
 .form-bg{
 	background: #1c1c1c;
 	margin-top:30px;
+	border-radius: 10px;
 }
 .form{
   padding:20px;
@@ -168,13 +172,15 @@ body{
 	justify-content: flex-end;
 }
 .burger-bg{
-	font-size:130px; 
+	font-size:100px; 
 	color:#fff;
 	font-family: 'Roboto', sans-serif;
 }
 .text-burger {
-	font-size:16px;
+	font-size: 30px;
 	color:#fff;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	font-family: 'Roboto', sans-serif;
 }
 .text-on-winter{
