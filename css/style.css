@@ -170,6 +170,7 @@ body{
 }
 .text-on-burger{
 	justify-content: flex-end;
+	margin-left: 50px;
 }
 .burger-bg{
 	font-size:100px; 
@@ -359,10 +360,10 @@ body{
 	.flex{
 		flex-direction: column;
 	}
-	.winter-bg{
+	.burger-bg{
 		font-size: 90px;
 	}
-	.hotel{
+	.burger {
      margin-right: 0;
 	}
 	.deluxe-box {
@@ -383,7 +384,7 @@ body{
 	}
 }
 @media(max-width:425px){
-	.winter-bg{
+	.burger-bg{
 		font-size: 60px;
 	}
 }
