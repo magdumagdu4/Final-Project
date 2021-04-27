@@ -29,7 +29,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background-color:peachpuff;
+    background-color:rgb(146, 87, 34);
         z-index: 5555;
 }
 .logo{
@@ -43,9 +43,11 @@ body{
 	display: flex;
 }
 .navigation-a{
-	color: #0f0f0f;
+	color: #fff;
 	font-size: 16px;
-	font-family: 'Roboto Regular', sans-serif;
+	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
 }
 /*Banner*/
 .banner{
@@ -62,10 +64,12 @@ body{
 .text-on-image1{
 	font-size:100px;
 	color:#fff;
+	font-family: 'Fredoka One', cursive;
 }
 .text-on-image2{
 	font-size: 50px;
 	color:#fff;
+	font-family: 'Roboto', sans-serif;	
 }
 /*Form-after-banner*/
 .form-bg{
@@ -83,26 +87,32 @@ body{
 .section-eat-title{
 	text-align: center;
 	font-size:50px;
-    color: #000000;
+    color: orange;
     margin-top:80px;
     margin-bottom: 50px;
+	font-family: 'Roboto', sans-serif;
 }
 .section-eat-title2{
 	text-align: center;
 	font-size:50px;
     color: #000000;
     margin-top:5px;
+	font-family: 'Roboto', sans-serif;
 }
 .title-after-image{
    font-size:16px;
-   color: #232323;
+   color: darkred;
+   margin-top: 10px;
+   margin-bottom: 10px;
    font-weight: bold;
    text-align: center;
+   font-family: 'Roboto', sans-serif;
 }
 .text-after-image{
    font-size:16px;
-   color:#010101;
+   color: darkslategray;
    text-align: center;
+   font-family: 'Roboto', sans-serif;
 }
 .burger-img{
 	width:100%;
@@ -122,13 +132,14 @@ body{
 	color:#fff;
 }
 .button1 {
-  border: 1px solid #4e26fd;
-  color: #4e26fd;
+  border: 1px solid orangered;
+  color: orangered;
   padding: 10px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 22px;
+  font-family: 'Roboto', sans-serif;
   margin: 4px 2px;
   cursor: pointer;
   text-transform: uppercase;
@@ -159,10 +170,12 @@ body{
 .burger-bg{
 	font-size:130px; 
 	color:#fff;
+	font-family: 'Roboto', sans-serif;
 }
 .text-burger {
 	font-size:16px;
 	color:#fff;
+	font-family: 'Roboto', sans-serif;
 }
 .text-on-winter{
 	float: left;
@@ -184,6 +197,7 @@ body{
   margin: 4px 2px;
   cursor: pointer;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
 }
 .read{
 	margin-top: 30px;
@@ -191,14 +205,16 @@ body{
 
 /*News*/
 .news-title{
-   color:#010101;
+   color: darkred;
    font-size: 16px;
    font-weight: bold;
    margin:10px 0;
+   font-family: 'Roboto', sans-serif;
 }
 .news-text{
    color:#454545;
    font-size: 16px;
+   font-family: 'Roboto', sans-serif;
 }
 
 
@@ -223,26 +239,31 @@ body{
 	font-size: 14px;
 	color:#fff;
 	margin-left:10px;
+	font-family: 'Roboto', sans-serif;
 }
 .fa-map-marker-alt, 
 .fa-mobile-alt,
 .fa-envelope{
 	color: #fff;
 	font-size: 14px;
+	
 }
 .footer-li{
 	font-size: 18px;
 	color: #fff;
 	text-transform: uppercase;
 	margin-bottom:10px;
+	font-family: 'Roboto', sans-serif;
 }
 .social-p{
 	color: #fff;
 	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
 }
 .footer-ul{
 	display: flex;
 	margin-top:20px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .social-icon{
@@ -253,14 +274,15 @@ body{
     transition:  all .2s linear .2s;       
 }
 .social-icon:hover{
-	border: solid #4e26fd 1px;
-	color: #4e26fd;
+	border: solid orangered 1px;
+	color: orangered;
 }
 .copyright{
 	font-size: 14px;
 	color: #b6b6b6;
 	text-align: center;
 	margin-top: 60px;
+	font-family: 'Roboto', sans-serif;
 }
 
 
